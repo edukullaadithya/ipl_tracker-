@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Team Comparison</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <h1>Team Comparison</h1>
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="matches.html">Matches</a>
+    <a href="history.html">History</a>
+  </nav>
+</header>
+
+<section>
+  <h2>Compare Teams</h2>
+
+  <select id="team1">
+    <option>CSK</option>
+    <option>MI</option>
+    <option>RCB</option>
+    <option>KKR</option>
+    <option>SRH</option>
+    <option>DC</option>
+    <option>RR</option>
+    <option>PBKS</option>
+    <option>GT</option>
+    <option>LSG</option>
+  </select>
+
+  <select id="team2">
+    <option>MI</option>
+    <option>CSK</option>
+    <option>RCB</option>
+    <option>KKR</option>
+    <option>SRH</option>
+    <option>DC</option>
+    <option>RR</option>
+    <option>PBKS</option>
+    <option>GT</option>
+    <option>LSG</option>
+  </select>
+
+  <br><br>
+  <button onclick="compareTeams()">Compare</button>
+
+  <div id="result"></div>
+</section>
+
+<script src="script.js"></script>
+</body>
+</html>
